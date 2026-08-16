@@ -28,7 +28,7 @@ html {
 
 body {
     font-size: 0.8125rem;
-    font-family: "Barlow Semi Condensed";
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
     background-color: var(--grey-100);
     display: flex;

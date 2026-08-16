@@ -36,7 +36,7 @@ main {
     padding: 64px 16px;
 }
 
-p{
+p {
     font-size: 0.6rem;
     margin-top: 0.2rem;
 }
@@ -45,12 +45,12 @@ q {
     line-height: 1.5;
 }
 
-h2{
+h2 {
     font-size: 0.75rem;
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-size: 1.2rem;
     line-height: 1.25;
     font-weight: 600;
@@ -85,6 +85,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem gray;
 }
 
 section header {
@@ -101,7 +102,7 @@ section header {
     color: var(--white);
 }
 
-.section-purple img{
+.section-purple img {
     border: 1px solid var(--purple-300);
 }
 
@@ -113,7 +114,7 @@ section header {
     color: var(--white);
 }
 
-.section-grey img{
+.section-grey img {
     border: 1px solid var(--grey-500);
 }
 
@@ -133,6 +134,6 @@ section header {
     color: var(--white);
 }
 
-.section-dark-blue img{
+.section-dark-blue img {
     border: 1px solid var(--purple-500);
 }

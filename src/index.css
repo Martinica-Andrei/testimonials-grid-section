@@ -151,7 +151,7 @@ section header {
 /* media query
 ------------------------------------------------------------------- */
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:77rem) {
     main {
         display: grid;
         grid-template-rows: repeat(2, 1fr);

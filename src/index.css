@@ -33,8 +33,8 @@ body {
     background-color: var(--grey-100);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: safe center;
+    justify-content: safe center;
     min-height: 100%;
     padding: 64px 16px;
     overflow: auto;

@@ -25,6 +25,41 @@
 body {
     font-size: 0.8125rem;
     font-family: "Barlow Semi Condensed";
+    font-weight: 500;
+    background-color: var(--grey-100);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    padding: 4rem 2rem;
+}
+
+p{
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+q {
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.2rem;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
 }
 
 .sr-only {
@@ -39,4 +74,65 @@ body {
     clip: rect(1px 1px 1px 1px) !important;
     -webkit-clip-path: inset(50%) !important;
     clip-path: inset(50%) !important;
+}
+
+/* sections
+------------------------------------------------------------------- */
+
+section {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* purple 
+------------------------------------------------------------------- */
+
+.section-purple {
+    background-color: var(--purple-500);
+    color: var(--white);
+}
+
+.section-purple img{
+    border: 1px solid var(--purple-300);
+}
+
+/* grey 
+------------------------------------------------------------------- */
+
+.section-grey {
+    background-color: var(--grey-400);
+    color: var(--white);
+}
+
+.section-grey img{
+    border: 1px solid var(--grey-500);
+}
+
+/* white 
+------------------------------------------------------------------- */
+
+.section-white {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+/* dark blue 
+------------------------------------------------------------------- */
+
+.section-dark-blue {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.section-dark-blue img{
+    border: 1px solid var(--purple-500);
 }
